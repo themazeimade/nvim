@@ -3,18 +3,18 @@ filetype plugin indent on
 " ('~/.config/nvim/')
 call plug#begin('C:\Users\aldol\AppData\Local\nvim\autoload\plugged')
 
+
+
 Plug 'mbbill/undotree'
 Plug 'gruvbox-community/gruvbox'
-"Plug 'itchyny/lightline.vim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'ap/vim-css-color'
-"Plug 'mcchrish/nnn.vim'
 Plug 'shinchu/lightline-gruvbox.vim'
-"Plug 'nvim-telescope/telescope.nvim'
-"Plug 'ycm-core/YouCompleteMe'
 Plug 'lervag/vimtex'
 Plug 'akinsho/bufferline.nvim'
 Plug 'moll/vim-bbye'
+Plug 'imcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+
 "File Manager
 "Plug 'preservim/nerdtree'
 Plug 'kyazdani42/nvim-tree.lua'
