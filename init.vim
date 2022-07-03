@@ -1,6 +1,6 @@
 filetype plugin indent on
 "vim-plug
-"
+" ('~/.config/nvim/')
 call plug#begin('C:\Users\aldol\AppData\Local\nvim\autoload\plugged')
 
 Plug 'mbbill/undotree'
