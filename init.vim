@@ -1,7 +1,7 @@
 filetype plugin indent on
 "vim-plug
 " ('~/.config/nvim/')
-call plug#begin('C:\Users\aldol\AppData\Local\nvim\autoload\plugged')
+call plug#begin()
 
 Plug 'mbbill/undotree'
 Plug 'gruvbox-community/gruvbox'
