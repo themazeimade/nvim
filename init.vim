@@ -13,7 +13,7 @@ Plug 'shinchu/lightline-gruvbox.vim'
 Plug 'lervag/vimtex'
 Plug 'akinsho/bufferline.nvim'
 Plug 'moll/vim-bbye'
-Plug 'imcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 
 "File Manager
 "Plug 'preservim/nerdtree'
