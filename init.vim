@@ -3,8 +3,6 @@ filetype plugin indent on
 " ('~/.config/nvim/')
 call plug#begin()
 
-
-
 Plug 'mbbill/undotree'
 Plug 'gruvbox-community/gruvbox'
 Plug 'lunarvim/colorschemes'
