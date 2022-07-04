@@ -14,6 +14,7 @@ Plug 'lervag/vimtex'
 Plug 'akinsho/bufferline.nvim'
 Plug 'moll/vim-bbye'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+Plug 'akinsho/toggleterm.nvim'
 
 "File Manager
 "Plug 'preservim/nerdtree'
@@ -96,6 +97,8 @@ lua require "user.cmp"
 lua require "user.lsp"
 
 lua require "user.nvim-tree"
+
+lua require "user.toggleterm"
 
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 colorscheme gruvbox
