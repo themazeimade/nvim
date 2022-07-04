@@ -45,6 +45,7 @@ Plug 'rafamadriz/friendly-snippets'
 
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer'
+Plug 'jose-elias-alvarez/null-ls.nvim'
 
 call plug#end()
 
