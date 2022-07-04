@@ -80,8 +80,8 @@ set colorcolumn=80
 
 
 "LUA CONFIG FILES
-"
-"
+
+
 lua require "user.keymaps"
 
 lua require "user.bufferline"
@@ -104,34 +104,10 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 colorscheme gruvbox
 set background=dark
 
-
-
-"NERDTree shorcuts and CONFIG
-"
-"
-"autocmd VimEnter * NERDTree | wincmd p
-
-
-" Exit Vim if NERDTree is the only window remaining in the only tab.
-"autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
-" Close the tab if NERDTree is the only window remaining in it.
-"autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
-"nnoremap <C-n> :NERDTree<CR>
-"nnoremap <C-t> :NERDTreeToggle<CR>
-"nnoremap <C-f> :NERDTreeFind<CR>
-"nnoremap <leader>n :NERDTreeFocus<CR>
-"nnoremap <leader>e :NERDTreeToggle<CR>
-
-"LIGHTLINE CONFIG
-"
-"
-"let g:lightline = {}
-"let g:lightline.colorscheme = 'gruvbox'
-"
 "VIMTEX CONFIG
-"
-"
+
 let g:vimtex_view_method = 'sioyek'
+let g:vimtex_complete_enabled = 1
 "let g:vimtex_view_general_viewer = 'SumatraPDF'
 "let g:vimtex_view_general_options
 "            \ = '-reuse-instance -forward-search @tex @line @pdf'
@@ -143,5 +119,4 @@ let g:vimtex_view_method = 'sioyek'
 "let g:vimtex_view_general_options_latexmk = '--unique'
 "let g:vimtex_view_compiler_method = 'latexrun'
 "let maplocalleader = ','
-let g:vimtex_complete_enabled = 1
 "set completeopt-=preview
