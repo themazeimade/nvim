@@ -73,7 +73,7 @@ syntax enable
 "set incsearch
 "set signcolumn=yes
 set colorcolumn=80
-""more column
+"more column
 "set cmdheight=2
 "set sc
 "set smd
