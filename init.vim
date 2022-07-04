@@ -7,6 +7,7 @@ call plug#begin()
 
 Plug 'mbbill/undotree'
 Plug 'gruvbox-community/gruvbox'
+Plug 'lunarvim/colorschemes'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'ap/vim-css-color'
 Plug 'shinchu/lightline-gruvbox.vim'
@@ -78,7 +79,7 @@ syntax enable
 "set scrolloff=8
 "set incsearch
 "set signcolumn=yes
-set colorcolumn=80
+" set colorcolumn=80
 "more column
 "set cmdheight=2
 "set sc
@@ -112,7 +113,7 @@ lua require "user.gitsigns"
 
 lua require "user.autopairs"
 
-highlight ColorColumn ctermbg=0 guibg=lightgrey
+" highlight ColorColumn ctermbg=0 guibg=lightgrey
 colorscheme gruvbox
 set background=dark
 
