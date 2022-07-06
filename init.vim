@@ -56,6 +56,12 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer'
 Plug 'jose-elias-alvarez/null-ls.nvim'
 
+" Future
+Plug 'vigoux/LanguageTool.nvim'
+Plug 'mfussenegger/nvim-dap'
+Plug 'rcarriga/nvim-dap-ui'
+Plug 'theHamsta/nvim-dap-virtual-text'
+Plug 'rcarriga/cmp-dap'
 call plug#end()
 
 " LUA CONFIG FILES
