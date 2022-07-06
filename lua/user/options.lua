@@ -41,7 +41,7 @@ vim.g.loaded_netrwPlugin = 1
 vim.g.vimtex_view_method = 'sioyek'
 vim.opt.fillchars = {eob = ' '}
 vim.opt.shortmess:append "c"
-vim.opt.spell = true
+-- vim.opt.spell = true
 vim.opt.spelllang = { 'es' }
 
 for k, v in pairs(options) do
