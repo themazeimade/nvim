@@ -1,6 +1,10 @@
 " filetype plugin indent on
 "vim-plug
 call plug#begin()
+
+" Impatient (Faster loading)
+Plug 'lewis6991/impatient.nvim'
+
 "This is a comment
 Plug 'mbbill/undotree'
 Plug 'gruvbox-community/gruvbox'
@@ -54,6 +58,7 @@ Plug 'jose-elias-alvarez/null-ls.nvim'
 call plug#end()
 
 " LUA CONFIG FILES
+lua require "user.impatient"
 
 lua require "user.keymaps"
 
