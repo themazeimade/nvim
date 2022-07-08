@@ -57,14 +57,18 @@ Plug 'williamboman/nvim-lsp-installer'
 Plug 'jose-elias-alvarez/null-ls.nvim'
 
 " Future
-Plug 'vigoux/LanguageTool.nvim'
 Plug 'mfussenegger/nvim-dap'
 Plug 'rcarriga/nvim-dap-ui'
 Plug 'theHamsta/nvim-dap-virtual-text'
 Plug 'rcarriga/cmp-dap'
+" Plug 'vigoux/LanguageTool.nvim'
+" Plug 'puremourning/vimspector'
 call plug#end()
 
+
 " LUA CONFIG FILES
+lua require "user.options"
+
 lua require "user.impatient"
 
 lua require "user.keymaps"
@@ -72,8 +76,6 @@ lua require "user.keymaps"
 lua require "user.bufferline"
 
 lua require "user.lualine"
-
-lua require "user.options"
 
 lua require "user.treesitter"
 
@@ -93,6 +95,7 @@ lua require "user.autopairs"
 
 lua require "user.indentline"
 
+" set colorcolumn=80
 " highlight ColorColumn ctermbg=0 guibg=lightgrey
-colorscheme gruvbox
-set background=dark
+" colorscheme gruvbox
+" set background=dark
