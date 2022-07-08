@@ -60,7 +60,7 @@ Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'mfussenegger/nvim-dap'
 Plug 'rcarriga/nvim-dap-ui'
 Plug 'theHamsta/nvim-dap-virtual-text'
-Plug 'rcarriga/cmp-dap'
+" Plug 'rcarriga/cmp-dap'
 " Plug 'vigoux/LanguageTool.nvim'
 " Plug 'puremourning/vimspector'
 call plug#end()
@@ -95,6 +95,7 @@ lua require "user.autopairs"
 
 lua require "user.indentline"
 
+lua require "user.dap"
 " set colorcolumn=80
 " highlight ColorColumn ctermbg=0 guibg=lightgrey
 " colorscheme gruvbox
