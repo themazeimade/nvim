@@ -49,6 +49,7 @@ for k, v in pairs(options) do
   vim.opt[k] = v
 end
 
+-- vim.cmd("highlight WinSeparator guibg=None")
 -- vim.cmd "set colorcolumn = 80"
 vim.cmd "colorscheme lunar"
 vim.cmd "set whichwrap+=<,>,[,],h,l"

@@ -39,10 +39,17 @@ navic.setup {
     depth_limit_indicator = "..",
 }
 
-require("lspconfig").clangd.setup {
-    on_attach = function(client, bufnr)
-        navic.attach(client, bufnr)
-    end
-}
+-- require("lspconfig").sumneko_lua.setup {
+--     on_attach = function(client, bufnr)
+--         navic.attach(client, bufnr)
+--     end
+-- }
+--
+-- require("lspconfig").clangd.setup {
+--     on_attach = function(client, bufnr)
+--         navic.attach(client, bufnr)
+--     end
+-- }
 
-vim.o.winbar = "%{%v:lua.require'nvim-navic'.get_location()%}"
+-- vim.o.winbar = "%f"
+-- vim.o.winbar = "%{%v:lua.require'nvim-navic'.get_location()%}"

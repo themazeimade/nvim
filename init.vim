@@ -20,7 +20,7 @@ Plug 'akinsho/toggleterm.nvim'
 Plug 'numToStr/Comment.nvim'
 Plug 'windwp/nvim-autopairs'
 Plug 'lukas-reineke/indent-blankline.nvim'
-
+Plug 'stevearc/aerial.nvim'
 " Git
 Plug 'lewis6991/gitsigns.nvim'
 
@@ -55,7 +55,7 @@ Plug 'rafamadriz/friendly-snippets'
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer'
 Plug 'jose-elias-alvarez/null-ls.nvim'
-Plug 'SmiteshP/nvim-navic'
+" Plug 'SmiteshP/nvim-navic'
 " Future
 Plug 'mfussenegger/nvim-dap'
 Plug 'rcarriga/nvim-dap-ui'
@@ -99,8 +99,11 @@ lua require "user.indentline"
 lua require "user.dap"
 
 lua require "user.options"
+
+lua require "user.aerial"
+
 " set winbar+=%{%v:lua.require'nvim-navic'.get_location()%}
-set colorcolumn=80
+" set colorcolumn=80
 " highlight ColorColumn ctermbg=0 guibg=lightgrey
 " colorscheme gruvbox
 " set background=dark
