@@ -67,11 +67,12 @@ call plug#end()
 
 
 " LUA CONFIG FILES
-lua require "user.options"
 
 lua require "user.impatient"
 
 lua require "user.keymaps"
+
+lua require "user.navic"
 
 lua require "user.lsp"
 
@@ -97,8 +98,9 @@ lua require "user.indentline"
 
 lua require "user.dap"
 
+lua require "user.options"
 " set winbar+=%{%v:lua.require'nvim-navic'.get_location()%}
-" set colorcolumn=80
+set colorcolumn=80
 " highlight ColorColumn ctermbg=0 guibg=lightgrey
 " colorscheme gruvbox
 " set background=dark
