@@ -72,7 +72,7 @@ lua require "user.impatient"
 
 lua require "user.keymaps"
 
-lua require "user.navic"
+" lua require 'user.navic'
 
 lua require "user.lsp"
 
