@@ -49,6 +49,7 @@ for k, v in pairs(options) do
   vim.opt[k] = v
 end
 
+-- vim.o.winbar = "%{%v:lua.require'nvim-navic'.get_location()%}"
 -- vim.cmd "set colorcolumn = 80"
 vim.cmd "colorscheme lunar"
 vim.cmd "set whichwrap+=<,>,[,],h,l"

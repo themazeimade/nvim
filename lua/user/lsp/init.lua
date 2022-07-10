@@ -3,6 +3,8 @@ if not status_ok then
 	return
 end
 
+-- Navi = require("nvim-navic")
+
 require("user.lsp.lsp-installer")
 require("user.lsp.handlers").setup()
 require "user.lsp.null-ls"

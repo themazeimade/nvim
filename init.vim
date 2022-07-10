@@ -55,7 +55,7 @@ Plug 'rafamadriz/friendly-snippets'
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer'
 Plug 'jose-elias-alvarez/null-ls.nvim'
-
+Plug 'SmiteshP/nvim-navic'
 " Future
 Plug 'mfussenegger/nvim-dap'
 Plug 'rcarriga/nvim-dap-ui'
@@ -73,6 +73,8 @@ lua require "user.impatient"
 
 lua require "user.keymaps"
 
+lua require "user.lsp"
+
 lua require "user.bufferline"
 
 lua require "user.lualine"
@@ -80,8 +82,6 @@ lua require "user.lualine"
 lua require "user.treesitter"
 
 lua require "user.cmp"
-
-lua require "user.lsp"
 
 lua require "user.nvim-tree"
 
@@ -96,6 +96,8 @@ lua require "user.autopairs"
 lua require "user.indentline"
 
 lua require "user.dap"
+
+" set winbar+=%{%v:lua.require'nvim-navic'.get_location()%}
 " set colorcolumn=80
 " highlight ColorColumn ctermbg=0 guibg=lightgrey
 " colorscheme gruvbox
