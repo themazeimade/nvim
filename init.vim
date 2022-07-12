@@ -21,6 +21,7 @@ Plug 'numToStr/Comment.nvim'
 Plug 'windwp/nvim-autopairs'
 Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'stevearc/aerial.nvim'
+Plug 'abecodes/tabout.nvim'
 " Git
 Plug 'lewis6991/gitsigns.nvim'
 
@@ -38,6 +39,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'JoosepAlviste/nvim-ts-context-commentstring'
+Plug 'lewis6991/spellsitter.nvim'
 
 " Autocompletion
 Plug 'hrsh7th/nvim-cmp'
@@ -45,7 +47,7 @@ Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'hrsh7th/cmp-nvim-lsp'
-Plug 'f3fora/cmp-spell'
+" Plug 'f3fora/cmp-spell'
 
 " snippets
 Plug 'L3MON4D3/Luasnip'
@@ -66,6 +68,7 @@ Plug 'theHamsta/nvim-dap-virtual-text'
 call plug#end()
 
 
+syntax on
 " LUA CONFIG FILES
 
 lua require "user.impatient"
@@ -102,8 +105,13 @@ lua require "user.options"
 
 lua require "user.aerial"
 
+lua require "user.tabout"
+
+lua require "user.spellsitter"
+
 " set winbar+=%{%v:lua.require'nvim-navic'.get_location()%}
-" set colorcolumn=80
+set colorcolumn=80
+" set spell
 " highlight ColorColumn ctermbg=0 guibg=lightgrey
 " colorscheme gruvbox
 " set background=dark
