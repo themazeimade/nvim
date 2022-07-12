@@ -68,7 +68,7 @@ Plug 'theHamsta/nvim-dap-virtual-text'
 call plug#end()
 
 
-syntax on
+" syntax on
 " LUA CONFIG FILES
 
 lua require "user.impatient"
@@ -105,9 +105,9 @@ lua require "user.options"
 
 lua require "user.aerial"
 
-lua require "user.tabout"
-
 lua require "user.spellsitter"
+
+lua require "user.tabout"
 
 " set winbar+=%{%v:lua.require'nvim-navic'.get_location()%}
 set colorcolumn=80
