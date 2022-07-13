@@ -65,10 +65,12 @@ Plug 'theHamsta/nvim-dap-virtual-text'
 " Plug 'rcarriga/cmp-dap'
 " Plug 'vigoux/LanguageTool.nvim'
 " Plug 'puremourning/vimspector'
+"
+" To be determined
+Plug 'nvim-neorg/neorg'
+
 call plug#end()
 
-
-" syntax on
 " LUA CONFIG FILES
 
 lua require "user.impatient"
@@ -109,6 +111,7 @@ lua require "user.spellsitter"
 
 lua require "user.tabout"
 
+lua require "user.neorg"
 " set winbar+=%{%v:lua.require'nvim-navic'.get_location()%}
 set colorcolumn=80
 " set spell

@@ -8,3 +8,9 @@ end
 require("user.lsp.lsp-installer")
 require("user.lsp.handlers").setup()
 require "user.lsp.null-ls"
+
+-- Temporal maybe
+
+require("lspconfig").texlab.setup{
+  on_attach = require("aerial").on_attach,
+}
