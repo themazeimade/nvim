@@ -113,7 +113,7 @@ lua require "user.tabout"
 
 lua require "user.neorg"
 " set winbar+=%{%v:lua.require'nvim-navic'.get_location()%}
-set colorcolumn=80
+set colorcolumn=90
 " set spell
 " highlight ColorColumn ctermbg=0 guibg=lightgrey
 " colorscheme gruvbox
