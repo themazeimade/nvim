@@ -22,6 +22,7 @@ Plug 'windwp/nvim-autopairs'
 Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'stevearc/aerial.nvim'
 Plug 'abecodes/tabout.nvim'
+Plug 'lukas-reineke/headlines.nvim'
 " Git
 Plug 'lewis6991/gitsigns.nvim'
 
