@@ -9,8 +9,7 @@ neorg.setup {
     ["core.norg.dirman"] = {
       config = {
         workspaces = {
-          work = "~/notes/work",
-          home = "~/notes/home",
+          notes = "~/notes/"
         }
       }
     },
@@ -26,7 +25,7 @@ neorg.setup {
     },
     ["core.norg.journal"] = {
       config = {
-        workspace = "home",
+        workspace = "notes",
         strategy = "nested"
       }
     },
@@ -37,7 +36,7 @@ neorg.setup {
     },
     ["core.gtd.base"] = {
       config = {
-        workspace = "work"
+        workspace = "notes"
       }
     }
   }
