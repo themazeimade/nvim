@@ -28,7 +28,52 @@ neorg.setup {
     },
     ["core.norg.concealer"] = {
       config = {
-        icon_preset = "diamond"
+        -- icon_preset = "varied"
+        icons = {
+          heading = {
+            enabled = true,
+
+            level_1 = {
+                icon = "◉",
+            },
+
+            level_2 = {
+                icon = " ◈",
+            },
+
+            level_3 = {
+                icon = "  ○",
+            },
+
+            level_4 = {
+                icon = "   ❖",
+            },
+
+            level_5 = {
+                icon = "    ◇",
+            },
+
+            level_6 = {
+                icon = "     ",
+            },
+          },
+
+          marker = {
+            icon = "",
+          },
+
+          footnote = {
+            single = {
+                icon = "†",
+            },
+            multi_prefix = {
+                icon = "‡ ",
+            },
+            multi_suffix = {
+                icon = "‡ ",
+            }
+          }
+        }
       }
     },
     ["core.norg.journal"] = {
@@ -83,6 +128,6 @@ neorg.setup {
 --     doubledash_string = "=",
 --     quote_highlight = "Quote",
 --     quote_string = "┃",
---     fat_headlines = true,
+--     fat_headlines = false,
 --   },
 -- }
