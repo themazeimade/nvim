@@ -26,8 +26,8 @@ neorg.setup {
     },
     ["core.norg.journal"] = {
       config = {
-        workspace = 'home',
-        strategy = 'flat'
+        workspace = "home",
+        strategy = "nested"
       }
     },
     ["core.norg.qol.toc"] = {
