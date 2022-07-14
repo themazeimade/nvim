@@ -15,13 +15,28 @@ neorg.setup {
       }
     },
     ["core.norg.completion"] = {
-      config = { -- Note that this table is optional and doesn't need to be provided
-        engine = "nvim-cmp" -- Configuration here
+      config = { 
+        engine = "nvim-cmp" 
       },
     },
     ["core.norg.concealer"] = {
-      config = { -- Note that this table is optional and doesn't need to be provided
+      config = { 
         icon_preset = "diamond"
+      }
+    },
+    ["core.norg.journal"] = {
+      config = { 
+        workspace = 'home',
+        strategy = 'flat'
+      }
+    },
+    ["core.norg.qol.toc"] = {
+      config = {
+      }
+    },
+    ["core.gtd.base"] = {
+      config = {
+        workspace = "work"
       }
     }
   }
