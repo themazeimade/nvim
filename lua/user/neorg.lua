@@ -15,23 +15,24 @@ neorg.setup {
       }
     },
     ["core.norg.completion"] = {
-      config = { 
-        engine = "nvim-cmp" 
+      config = {
+        engine = "nvim-cmp"
       },
     },
     ["core.norg.concealer"] = {
-      config = { 
+      config = {
         icon_preset = "diamond"
       }
     },
     ["core.norg.journal"] = {
-      config = { 
+      config = {
         workspace = 'home',
         strategy = 'flat'
       }
     },
     ["core.norg.qol.toc"] = {
       config = {
+        close_split_on_jump = true
       }
     },
     ["core.gtd.base"] = {
