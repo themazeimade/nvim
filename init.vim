@@ -23,6 +23,12 @@ Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'stevearc/aerial.nvim'
 Plug 'abecodes/tabout.nvim'
 Plug 'lukas-reineke/headlines.nvim'
+Plug 'p00f/nvim-ts-rainbow'
+Plug 'max397574/better-escape.nvim'
+
+"Focus mode
+Plug 'folke/twilight.nvim'
+Plug 'folke/zen-mode.nvim'
 " Git
 Plug 'lewis6991/gitsigns.nvim'
 
@@ -112,7 +118,11 @@ lua require "user.spellsitter"
 
 lua require "user.tabout"
 
+lua require "user.zen"
+
 lua require "user.neorg"
+
+lua require "user.escape"
 " set winbar+=%{%v:lua.require'nvim-navic'.get_location()%}
 set colorcolumn=90
 " set spell
