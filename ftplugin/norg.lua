@@ -1,6 +1,6 @@
 vim.cmd [[setlocal conceallevel=2]]
 vim.cmd [[setlocal nofoldenable]]
--- vim.cmd [[setlocal tw=89]]
-vim.cmd [[setlocal wrap]]
+vim.cmd [[setlocal tw=89]]
+-- vim.cmd [[setlocal wrap]]
 vim.cmd [[setlocal nocursorline]]
 vim.cmd [[setlocal colorcolumn=0]]
