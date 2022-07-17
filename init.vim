@@ -25,6 +25,7 @@ Plug 'abecodes/tabout.nvim'
 Plug 'lukas-reineke/headlines.nvim'
 Plug 'p00f/nvim-ts-rainbow'
 Plug 'max397574/better-escape.nvim'
+Plug 'phaazon/hop.nvim', { 'branch':'v1'}
 
 "Focus mode
 Plug 'folke/twilight.nvim'
@@ -124,6 +125,8 @@ lua require "user.zen"
 lua require "user.neorg"
 
 lua require "user.escape"
+
+lua require "user.hop"
 " set winbar+=%{%v:lua.require'nvim-navic'.get_location()%}
 set colorcolumn=90
 " set spell
