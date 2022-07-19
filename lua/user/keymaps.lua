@@ -17,7 +17,8 @@ vim.g.maplocalleader = " "
 --   visual_block_mode = "x",
 --   term_mode = "t",
 --   command_mode = "c",
-
+keymap("n", "<Enter>", "o<ESC>", opts)
+keymap("n", "<S-Enter>", "O<ESC>", opts)
 -- Normal --
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
