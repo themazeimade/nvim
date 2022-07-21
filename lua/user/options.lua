@@ -50,7 +50,7 @@ for k, v in pairs(options) do
 end
 
 -- vim.cmd("highlight WinSeparator guibg=None")
--- vim.cmd "set colorcolumn = 80"
+vim.cmd "set colorcolumn=90"
 vim.cmd "colorscheme lunar"
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]

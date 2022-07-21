@@ -128,7 +128,7 @@ lua require "user.escape"
 
 lua require "user.hop"
 " set winbar+=%{%v:lua.require'nvim-navic'.get_location()%}
-set colorcolumn=90
+" set colorcolumn=90
 " set spell
 " highlight ColorColumn ctermbg=0 guibg=lightgrey
 " colorscheme gruvbox
