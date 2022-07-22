@@ -5,7 +5,7 @@ end
 
 toggleterm.setup({
 	size = 10,
-	open_mapping = [[<c-\>]],
+	open_mapping = [[<c-_>]],
 	hide_numbers = true,
 	shade_filetypes = {},
 	shade_terminals = true,
@@ -15,7 +15,7 @@ toggleterm.setup({
 	persist_size = true,
 	direction = "float",
 	close_on_exit = true,
-	shell = 'powershell',
+	shell = 'pwsh -NoLogo',
 	float_opts = {
 		border = "curved",
 		winblend = 0,
