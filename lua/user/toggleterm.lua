@@ -15,7 +15,7 @@ toggleterm.setup({
 	persist_size = true,
 	direction = "float",
 	close_on_exit = true,
-	shell = 'fish',
+	shell = 'powershell',
 	float_opts = {
 		border = "curved",
 		winblend = 0,
@@ -53,6 +53,7 @@ local live_server = Terminal:new({
     -- vim.cmd("startinsert!")
     vim.api.nvim_buf_set_keymap(term.bufnr, "t", "<leader>g", "<cmd>lua _WEB_TOGGLE()<CR>", {noremap = true, silent = true})
     vim.api.nvim_buf_set_keymap(term.bufnr, "t", "<leader>w", "<cmd>bdelete!<CR>", {noremap = true, silent = true})
+    vim.api.nvim_buf_set_keymap(term.bufnr, "n", "<leader>w", "<cmd>bdelete!<CR>", {noremap = true, silent = true})
   end,
 })
 
