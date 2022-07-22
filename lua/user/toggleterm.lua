@@ -52,6 +52,7 @@ local live_server = Terminal:new({
   on_open = function(term)
     -- vim.cmd("startinsert!")
     vim.api.nvim_buf_set_keymap(term.bufnr, "t", "<leader>g", "<cmd>lua _WEB_TOGGLE()<CR>", {noremap = true, silent = true})
+    vim.api.nvim_buf_set_keymap(term.bufnr, "t", "<leader>w", "<cmd>bdelete!<CR>", {noremap = true, silent = true})
   end,
 })
 
