@@ -122,9 +122,11 @@ cmp.setup {
     select = false,
   },
   window ={
-    documentation = {
-        border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
-  },
+    documentation = true,
+    completion = {
+      border = "rounded",
+      winhighlight = "NormalFloat:Pmenu,NormalFloat:Pmenu,CursorLine:PmenuSel,Search:None",
+    },
   },
   experimental = {
     ghost_text = true,
